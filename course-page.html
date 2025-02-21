@@ -1,0 +1,1638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduman - Education & Online Courses Angular Template
+  </title>
+  <!-- boostrap link  -->
+
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- boostrap css class over  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- boostrap linke over  -->
+
+  <!-- css link  -->
+
+  <link rel="stylesheet" href="course-page.css">
+
+
+</head>
+
+<body>
+  <!-- alert class  -->
+
+
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div data-aos="zoom-out-down">
+   
+
+    <!-- alert class over  -->
+    <div class="container-fluid">
+      <div class="nav-bar-main-class">
+      <ul class="body-ul">
+        <li class="nav-item">
+          <a class="a-tag-link" href="#"><img src="img/logo-black.png" alt="img not found "></a>
+        </li>
+
+        <li class="nav-item-category" id="small-width">
+          <a class="a-tag-link-category" href="#">
+            <div class="box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <g fill="none">
+                  <path
+                    d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                  <path fill="currentColor"
+                    d="M5.5 17a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m6.5 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m6.5 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m-13-6.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m6.5 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m6.5 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M5.5 4a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M12 4a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3m6.5 0a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3" />
+                </g>
+              </svg></div>
+            Category <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+            </svg>
+          </a>
+          <ul class="sub-ul-caregory">
+            <li><a href="#">Development <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                  viewBox="0 0 1024 1024">
+                  <path fill="currentColor"
+                    d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512L340.864 831.872a30.59 30.59 0 0 0 0 42.752a29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z" />
+                </svg></a></li>
+            <li><a href="#">Art & Design<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                  viewBox="0 0 1024 1024">
+                  <path fill="currentColor"
+                    d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512L340.864 831.872a30.59 30.59 0 0 0 0 42.752a29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z" />
+                </svg></a></li>
+            <li><a href="#">Business<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                  viewBox="0 0 1024 1024">
+                  <path fill="currentColor"
+                    d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512L340.864 831.872a30.59 30.59 0 0 0 0 42.752a29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z" />
+                </svg></a></li>
+            <li><a href="#">Life style <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                  viewBox="0 0 1024 1024">
+                  <path fill="currentColor"
+                    d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512L340.864 831.872a30.59 30.59 0 0 0 0 42.752a29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z" />
+                </svg></a></li>
+            <li><a href="#">Health & Fitness<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"
+                  viewBox="0 0 1024 1024">
+                  <path fill="currentColor"
+                    d="M340.864 149.312a30.59 30.59 0 0 0 0 42.752L652.736 512L340.864 831.872a30.59 30.59 0 0 0 0 42.752a29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z" />
+                </svg></a></li>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Photography</a></li>
+          </ul>
+        </li>
+        <li class="home-category-main" id="small-width">
+          <a class="a-tag-link" href="index.html">Home <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+            </svg></a>
+
+          <ul class="home-category">
+            <li><a href="#">Home 1</a></li>
+            <li><a href="#">Home 2</a></li>
+            <li><a href="#">Home 3</a></li>
+          </ul>
+        </li>
+        <li class="course-category-main" id="small-width">
+          <a class="a-tag-link" href="course-page.html">Course <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+            </svg></a>
+          <ul class="course-sub-category">
+            <li><a href="#">course 1</a></li>
+            <li><a href="#">course 2</a></li>
+            <li><a href="#">course 3</a></li>
+            <li><a href="#">course 4</a></li>
+            <li><a href="#">course Details</a></li>
+            <li><a href="#">webinars</a></li>
+            <li><a href="#">webinars Details</a></li>
+          </ul>
+        </li>
+        <li class="shop-category-main" id="small-width">
+          <a class="a-tag-link" href="shope-page.html">shop <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+            </svg></a>
+          <ul class="shop-sub-category">
+            <li><a href="#">shop</a></li>
+            <li><a href="#">shop details</a></li>
+            <li><a href="#">wishlist</a></li>
+            <li><a href="#">cart</a></li>
+            <li><a href="#">checkout</a></li>
+          </ul>
+        </li>
+        <li class="page-category-main" id="small-width">
+          <a class="a-tag-link" href="shope-page.html">page <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+            </svg></a>
+          <ul class="page-sub-category">
+            <li><a href="about-page.html">About</a></li>
+            <li class="instructor-category-main"><a href="#">instructor <svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+                </svg></a>
+              <ul class="instructor-sub-category">
+                <li><a href="#">instructor </a></li>
+                <li><a href="#">instructor profile</a></li>
+                <li><a href="#">student profile</a></li>
+                <li><a href="#">Become instructor</a></li>
+              </ul>
+            </li>
+            <li class="zoom-category-main"><a href="#">zoom class<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                  height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+                </svg></a>
+              <ul class="zoom-sub-category">
+                <li><a href="#">Zoom class</a></li>
+                <li><a href="#">Zoom class details</a></li>
+              </ul>
+            </li>
+            <li class="blog-category-main"><a href="#">blog<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                  height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+                </svg></a>
+              <ul class="blog-sub-category">
+                <li><a href="#">Blog </a></li>
+                <li><a href="#">Blog details</a></li>
+              </ul>
+            </li>
+            <li class="event-category-main"><a href="#">event<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                  height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+                </svg></a>
+              <ul class="event-sub-category">
+                <li><a href="#">Event </a></li>
+                <li><a href="#">Event details</a></li>
+              </ul>
+            </li>
+            <li><a href="#">membership plan</a></li>
+            <li class="faq-category-main"><a href="#">FAQ page<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                  height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M7.41 8.58L12 13.17l4.59-4.59L18 10l-6 6l-6-6z" />
+                </svg></a>
+              <ul class="faq-sub-category">
+                <li><a href="#">FAQ page</a></li>
+                <li><a href="#">FAQ Details</a></li>
+              </ul>
+            </li>
+            <li><a href="sing-up.html">sign in</a></li>
+            <li><a href="sign-up.html">sign up</a></li>
+            <li><a href="#">404 page</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="right-side-part">
+        <ul class="right-side">
+          <li id="small-width">
+            <form action="#">
+              <div class="search-course">
+                <input type="text" class="search-course" name="search" placeholder="search course..."><svg
+                  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5l-1.5 1.5l-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16A6.5 6.5 0 0 1 3 9.5A6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14S14 12 14 9.5S12 5 9.5 5" />
+                </svg>
+              </div>
+            </form>
+          </li>
+          <li class="cart">
+            <p class="cart">
+              
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M0 1h4.764l.545 2h18.078l-3.666 11H7.78l-.5 2H22v2H4.72l1.246-4.989L3.236 3H0zm7.764 11h10.515l2.334-7H5.855zM4 21a2 2 0 1 1 4 0a2 2 0 0 1-4 0m14 0a2 2 0 1 1 4 0a2 2 0 0 1-4 0" />
+                </svg></a><sup>3</sup></p>
+          </li>
+          <li>
+            <div class="sign-up-in-main-btn">
+              <a href="sing-in.html" class="sing-in">sign in</a>
+              <a href="sign-up.html" class="sing-up">sign up</a>
+            </div>
+          </li>
+        </ul>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+      </div>
+      </div>
+
+
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- nav  class over  -->
+
+  <!-- title heading class start  -->
+  <div data-aos="fade-up">
+  <div class="background-title-main-class">
+    <div class="container">
+      
+     <div class="context-course"> 
+    <h3>Courses</h3>
+    <p>Home <span>></span> Course</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- title heading class over  -->
+
+
+  <!-- course class start  -->
+
+  <div class="course-main-class">
+    <div class="container">
+      <div data-aos="fade-down-right">
+        <div class="course-nav-bar">
+            <div class="row sub-nav-bar-main-class">
+                <div class="sub-nav-bar-1 col-lg-3 col-md-4 col-sm-6">
+                    <div class="sub-mnav-bar-part-1-context">
+                        <div class="filter-icon-class">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9 5a1 1 0 1 0 0 2a1 1 0 0 0 0-2M6.17 5a3.001 3.001 0 0 1 5.66 0H19a1 1 0 1 1 0 2h-7.17a3.001 3.001 0 0 1-5.66 0H5a1 1 0 0 1 0-2zM15 11a1 1 0 1 0 0 2a1 1 0 0 0 0-2m-2.83 0a3.001 3.001 0 0 1 5.66 0H19a1 1 0 1 1 0 2h-1.17a3.001 3.001 0 0 1-5.66 0H5a1 1 0 1 1 0-2zM9 17a1 1 0 1 0 0 2a1 1 0 0 0 0-2m-2.83 0a3.001 3.001 0 0 1 5.66 0H19a1 1 0 1 1 0 2h-7.17a3.001 3.001 0 0 1-5.66 0H5a1 1 0 1 1 0-2z"/></svg>
+                        </div>
+                        <div class="fliter-text">
+                            <p>Fliter <span>(2)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-nav-bar-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="sub-bar-part-2-context">
+                        <form action="#">
+                            <div class="search-input">
+                                <div class="seacrch-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314"/></svg>
+                                </div>
+                                <input type="search" name="search" placeholder="Seacrch keyword">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="sub-nav-bar-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="bar-3-context">
+                        <p>Showing <strong>15</strong> of <strong>60 </strong>results</p>
+                    </div>
+                </div>
+                <div class="sub-nav-bar-4 col-lg-3 col-md-4 col-sm-6">
+                    <div class="bar-4">
+                        <div class="select-class">
+                            <select name="newly" id="">
+                                <option value="">Newly published</option>
+                                <option value="">Most Viewed</option>
+                                <option value="">5 Star Rated</option>
+                                <option value="">Newly published</option>
+                                <option value="">Duration</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div data-aos="fade-down-left">
+        <div class="row check-and-card-side-by-side">
+          <div class="side-check-boxs col-lg-3 col-md-3 col-sm-5">
+           <div class="categories-main-class">
+            <div class="categories-sub-nav-bar">
+              <a href="#">
+              <div class="cate-text">
+                <h5>categories</h5>
+              </div>
+              <div class="cate-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="m2.931 10.843l4.685-4.611a.546.546 0 0 1 .768 0l4.685 4.61a.55.55 0 0 0 .771 0a.53.53 0 0 0 0-.759l-4.684-4.61a1.65 1.65 0 0 0-2.312 0l-4.684 4.61a.53.53 0 0 0 0 .76a.55.55 0 0 0 .771 0"/></svg>
+              </div>
+            </a>
+            </div>
+            <div class="categories-context">
+              <div class="all-check-boxs">
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Business (12)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">development (9)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">data science (25)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Art & Design (25)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Art & Design (25)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Finance (8)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Marketing (22)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Management (12)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Health & Fitness (5)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Photography (18)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Music (21)</a> 
+              </div>
+                <div class="text-part">
+                <input type="checkbox" name="check-part"> <a href="#">Academic (16)</a> 
+              </div>
+              </div>
+            </div>
+           
+
+           </div>
+
+           <div class="rating-star-class-main-class">
+            <div class="categories-sub-nav-bar">
+              <a href="#">
+              <div class="cate-text">
+                <h5>Ratings</h5>
+              </div>
+              <div class="cate-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="m2.931 10.843l4.685-4.611a.546.546 0 0 1 .768 0l4.685 4.61a.55.55 0 0 0 .771 0a.53.53 0 0 0 0-.759l-4.684-4.61a1.65 1.65 0 0 0-2.312 0l-4.684 4.61a.53.53 0 0 0 0 .76a.55.55 0 0 0 .771 0"/></svg>
+              </div>
+            </a>
+
+              
+            </div>
+            <div class="rating-text-part">
+              <input type="radio" class="price-checkbox" name="check-part">
+               <a href="#" >
+                <div class="rating-star-class">
+                  <div class="rating-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </a> 
+            </div>
+            <div class="rating-text-part">
+              <input type="radio" class="price-checkbox" name="check-part">
+               <a href="#" >
+                <div class="rating-star-class">
+                  <div class="rating-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </a> 
+            </div>
+            <div class="rating-text-part">
+              <input type="radio" class="price-checkbox" name="check-part">
+               <a href="#" >
+                <div class="rating-star-class">
+                  <div class="rating-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </a> 
+            </div>
+            <div class="rating-text-part">
+              <input type="radio" class="price-checkbox" name="check-part">
+               <a href="#" >
+                <div class="rating-star-class">
+                  <div class="rating-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </a> 
+            </div>
+            <div class="rating-text-part">
+              <input type="radio" class="price-checkbox" name="check-part">
+               <a href="#" >
+                <div class="rating-star-class">
+                  <div class="rating-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 20 20"><path fill="currentColor" d="M18.8 8.022h-6.413L10 1.3L7.611 8.022H1.199l5.232 3.947l-1.871 6.929L10 14.744l5.438 4.154l-1.869-6.929zM10 12.783l-3.014 2.5l1.243-3.562l-2.851-2.3l3.522.101l1.1-4.04l1.099 4.04l3.521-.101l-2.851 2.3l1.243 3.562z"/></svg>
+                    <span>(25)</span>
+                  </div>
+                </div>
+              </a> 
+            </div>
+           </div>
+
+
+           <div class="price-context">
+            <div class="price-all-check-boxs">
+              <div class="categories-sub-nav-bar">
+                <a href="#">
+                <div class="cate-text">
+                  <h5>Price</h5>
+                </div>
+                <div class="cate-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="m2.931 10.843l4.685-4.611a.546.546 0 0 1 .768 0l4.685 4.61a.55.55 0 0 0 .771 0a.53.53 0 0 0 0-.759l-4.684-4.61a1.65 1.65 0 0 0-2.312 0l-4.684 4.61a.53.53 0 0 0 0 .76a.55.55 0 0 0 .771 0"/></svg>
+                </div>
+              </a>
+  
+                
+              </div>
+              <div class="price-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">All (85)</a> 
+            </div>
+              <div class="price-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Free (21)</a> 
+            </div>
+              <div class="price-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Paid (54)</a> 
+            </div>
+             
+             
+            </div>
+          </div>
+
+          <div class="level-context">
+            <div class="level-all-check-boxs">
+              <div class="level-sub-nav-bar">
+                <a href="#">
+                <div class="cate-text">
+                  <h5>level</h5>
+                </div>
+                <div class="cate-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="m2.931 10.843l4.685-4.611a.546.546 0 0 1 .768 0l4.685 4.61a.55.55 0 0 0 .771 0a.53.53 0 0 0 0-.759l-4.684-4.61a1.65 1.65 0 0 0-2.312 0l-4.684 4.61a.53.53 0 0 0 0 .76a.55.55 0 0 0 .771 0"/></svg>
+                </div>
+              </a>
+  
+                
+              </div>
+              <div class="level-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">All levels (5)</a> 
+            </div>
+              <div class="level-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Beginner (36)</a> 
+            </div>
+              <div class="level-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Intermediate (25)</a> 
+            </div>
+              <div class="level-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Expert (32)</a> 
+            </div>
+             
+             
+            </div>
+          </div>
+          
+          <div class="language-context">
+            <div class="language-all-check-boxs">
+              <div class="language-sub-nav-bar">
+                <a href="#">
+                <div class="cate-text">
+                  <h5>Language</h5>
+                </div>
+                <div class="cate-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="m2.931 10.843l4.685-4.611a.546.546 0 0 1 .768 0l4.685 4.61a.55.55 0 0 0 .771 0a.53.53 0 0 0 0-.759l-4.684-4.61a1.65 1.65 0 0 0-2.312 0l-4.684 4.61a.53.53 0 0 0 0 .76a.55.55 0 0 0 .771 0"/></svg>
+                </div>
+              </a>
+  
+                
+              </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">English (21)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Hindi (12)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">French (7)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Japanese (10)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Korean (5)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Japanese (10)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Spanish (14)</a> 
+            </div>
+              <div class="language-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Italian (8)</a> 
+            </div>
+             
+             
+            </div>
+          </div>
+
+          <div class="duration-context">
+            <div class="duration-all-check-boxs">
+              <div class="duration-sub-nav-bar">
+                <a href="#">
+                <div class="cate-text">
+                  <h5>Duration</h5>
+                </div>
+                <div class="cate-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="m2.931 10.843l4.685-4.611a.546.546 0 0 1 .768 0l4.685 4.61a.55.55 0 0 0 .771 0a.53.53 0 0 0 0-.759l-4.684-4.61a1.65 1.65 0 0 0-2.312 0l-4.684 4.61a.53.53 0 0 0 0 .76a.55.55 0 0 0 .771 0"/></svg>
+                </div>
+              </a>
+  
+                
+              </div>
+              <div class="duration-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">Less than 1 Hours (24)</a> 
+            </div>
+              <div class="duration-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">1-2 Hours (36)</a> 
+            </div>
+              <div class="duration-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">2-5 Hours (25)</a> 
+            </div>
+              <div class="duration-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">6-7 Hours (32)</a> 
+            </div>
+              <div class="duration-text-part">
+              <input type="radio" class="price-checkbox" name="check-part"> <a href="#">7-10 Hours (11)</a> 
+            </div>
+              
+             
+             
+            </div>
+          </div>
+
+          </div>
+
+
+
+          <div class="row course-main-card col-lg-9 col-md-9 col-sm-6">
+          <div class="row part-1">
+
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="card-all-context-1">
+                <div class="card-img">
+                  <img src="img/course-img-01.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-context">
+                  <div class="card-body">
+                    <div class="lessons">
+                      <div class="icon-text-course">
+                      <div class="lessons-icon">
+                        <div class="tv-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                        </div>
+                      </div>
+                      <div class="lessons-text">
+                        <p>12 Lessons</p>
+                      </div>
+                    </div>
+                    <div class="number-cut-text">
+                      <div class="numbeer-class">
+                        <p>$12.57</p>
+                        <p><span>$24.50</span></p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="course-par-1">
+                    <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+                  </div>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                        <p>danial</p></li>
+                    <li class="star-main-class">
+                    <div class="star-class">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      
+                    </div>
+                    <div class="rate-text">
+                      <p>(25)</p>
+                    </div>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="card-all-context-1">
+                <div class="card-img">
+                  <img src="img/course-img-02.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-context">
+                  <div class="card-body">
+                    <div class="lessons">
+                      <div class="icon-text-course">
+                      <div class="lessons-icon">
+                        <div class="tv-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                        </div>
+                      </div>
+                      <div class="lessons-text">
+                        <p>12 Lessons</p>
+                      </div>
+                    </div>
+                    <div class="number-cut-text">
+                      <div class="numbeer-class">
+                        <p>$12.57</p>
+                        <p><span>$24.50</span></p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="course-par-1">
+                    <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+                  </div>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                        <p>danial</p></li>
+                    <li class="star-main-class">
+                    <div class="star-class">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      
+                    </div>
+                    <div class="rate-text">
+                      <p>(25)</p>
+                    </div>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <div class="card-all-context-1">
+                <div class="card-img">
+                  <img src="img/course-img-03.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-context">
+                  <div class="card-body">
+                    <div class="lessons">
+                      <div class="icon-text-course">
+                      <div class="lessons-icon">
+                        <div class="tv-icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                        </div>
+                      </div>
+                      <div class="lessons-text">
+                        <p>12 Lessons</p>
+                      </div>
+                    </div>
+                    <div class="number-cut-text">
+                      <div class="numbeer-class">
+                        <p>$12.57</p>
+                        <p><span>$24.50</span></p>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="course-par-1">
+                    <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+                  </div>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                        <p>danial</p></li>
+                    <li class="star-main-class">
+                    <div class="star-class">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+                      
+                    </div>
+                    <div class="rate-text">
+                      <p>(25)</p>
+                    </div>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+
+         
+        
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-04.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-05.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-06.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+
+         
+          
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-04.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-05.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-06.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+
+         
+         
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-04.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-05.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-06.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+
+          
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-04.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-05.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card col-lg-4 col-md-6 col-sm-12">
+      <div class="card-all-context-1">
+        <div class="card-img">
+          <img src="img/course-img-06.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-context">
+          <div class="card-body">
+            <div class="lessons">
+              <div class="icon-text-course">
+              <div class="lessons-icon">
+                <div class="tv-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 7l6.632-4m-7.106 4L5.368 3M3 9.154C3 7.964 3.895 7 5 7h14c1.105 0 2 .964 2 2.154v9.692c0 1.19-.895 2.154-2 2.154H5c-1.105 0-2-.964-2-2.154z"/></svg>
+                </div>
+              </div>
+              <div class="lessons-text">
+                <p>12 Lessons</p>
+              </div>
+            </div>
+            <div class="number-cut-text">
+              <div class="numbeer-class">
+                <p>$12.57</p>
+                <p><span>$24.50</span></p>
+              </div>
+            </div>
+            </div>
+            <div class="course-par-1">
+            <p class="course-par">WordPress Development Course for Plugins & Themes</p>
+          </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 16c-2.69 0-5.77 1.28-6 2h12c-.2-.71-3.3-2-6-2" opacity="0.3"/><circle cx="12" cy="8" r="2" fill="currentColor" opacity="0.3"/><path fill="currentColor" d="M12 14c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4m-6 4c.22-.72 3.31-2 6-2c2.7 0 5.8 1.29 6 2zm6-6c2.21 0 4-1.79 4-4s-1.79-4-4-4s-4 1.79-4 4s1.79 4 4 4m0-6c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2"/></svg>
+                <p>danial</p></li>
+            <li class="star-main-class">
+            <div class="star-class">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64"><path fill="#ffce31" d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z"/></svg>
+              
+            </div>
+            <div class="rate-text">
+              <p>(25)</p>
+            </div>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+
+          </div>
+          <div class="side-arrow-main-class">
+          <div class="side-arrow">
+            <div class="side-arrow" >
+              <a href="#" class="arrow-hover">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M14 17.308L8.692 12L14 6.692l.708.708l-4.6 4.6l4.6 4.6z"/></svg>
+            </a>
+            </div>
+            <div class="number1-2"><a href="#" class="number-1">01</a><a href="#" class="number-2">02</a></div>
+            
+            <div class="side-arrow">
+              <a href="#" class="arrow-hover">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m13.292 12l-4.6-4.6l.708-.708L14.708 12L9.4 17.308l-.708-.708z"/></svg>
+            </a>
+            </div>
+          </div>
+  
+        </div>
+  
+  
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- course class over  -->
+
+
+ 
+
+  <!-- footer class start  -->
+
+  <footer class="footer-seaction">
+    <div class="footer-main-class">
+      <div class="container">
+        <div data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
+
+        <div class="all-footer-context">
+        <div class="row footer-four-main-class">
+          <div class="footer-part-1 col-lg-3 col-md-4 col-sm-12">
+            <div class="footer-logo-class">
+              <img src="img/footer-logo.png" alt="">
+            </div>
+            <div class="footer-par">
+              <p>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lessons as best plans to
+                knowledge.</p>
+            </div>
+
+            <div class="footer-icon">
+              <div class="footer-icon">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 512 512">
+                    <path fill="currentColor" fill-rule="evenodd"
+                      d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31" />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-icon">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                    <path fill="currentColor" fill-rule="evenodd"
+                      d="M8.475 1.163c1.302-.335 2.873.127 3.83 1.146h1.073a.5.5 0 0 1 .45.717l-1.055 2.186c.3 2.548-.697 4.984-2.702 6.424c-2.05 1.473-5.067 1.844-8.645.378a1 1 0 0 1 .051-1.888a6.3 6.3 0 0 0 1.564-.662a6.02 6.02 0 0 1-2.757-6.55a1 1 0 0 1 1.695-.592C3.392 3.711 4.627 4.285 5.483 4.52c.332.091.61.132.822.149c-.066-.88.084-1.614.416-2.194c.404-.707 1.047-1.13 1.754-1.312"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-icon">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M22 7.42c-.09 1.95-1.45 4.62-4.08 8.02C15.2 19 12.9 20.75 11 20.75c-1.15 0-2.14-1.08-2.95-3.25c-.55-1.96-1.05-3.94-1.61-5.92c-.6-2.16-1.24-3.24-1.94-3.24c-.14 0-.66.32-1.56.95L2 8.07c1-.87 1.96-1.74 2.92-2.61c1.32-1.14 2.31-1.74 2.96-1.8c1.56-.16 2.52.92 2.88 3.2c.39 2.47.66 4 .81 4.6c.43 2.04.93 3.04 1.48 3.04c.42 0 1.05-.64 1.89-1.97q1.26-1.98 1.35-3.03q.18-1.71-1.35-1.71c-.48 0-.97.11-1.48.33c.98-3.23 2.86-4.8 5.63-4.71c2.06.06 3.03 1.4 2.91 4.01" />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer-icon">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M18.44 3.06H5.56a2.507 2.507 0 0 0-2.5 2.5v12.88a2.507 2.507 0 0 0 2.5 2.5h12.88a2.5 2.5 0 0 0 2.5-2.5V5.56a2.5 2.5 0 0 0-2.5-2.5m1.5 15.38a1.51 1.51 0 0 1-1.5 1.5H5.56a1.51 1.51 0 0 1-1.5-1.5V5.56a1.51 1.51 0 0 1 1.5-1.5h12.88a1.51 1.51 0 0 1 1.5 1.5Z" />
+                    <path fill="currentColor" d="M6.376 10.748a1 1 0 1 1 2 0v6.5a1 1 0 0 1-2 0Z" />
+                    <circle cx="7.376" cy="6.744" r="1" fill="currentColor" />
+                    <path fill="currentColor"
+                      d="M17.62 13.37v3.88a1 1 0 1 1-2 0v-3.88a1.615 1.615 0 1 0-3.23 0v3.88a1 1 0 0 1-2 0v-6.5a1.016 1.016 0 0 1 1-1a.94.94 0 0 1 .84.47a3.61 3.61 0 0 1 5.39 3.15" />
+                  </svg>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="footer-part-1 col-lg-3 col-md-4 col-sm-12">
+            <div class="online-plateform-ul-list">
+              <ul class="online-Platform">
+                <h4 class="footer-ul-heading">Online Platform</h4>
+                <li><a href="#">Proper Guidelines</a></li>
+                <li><a href="#">Digital Library</a></li>
+                <li><a href="#">Brand Guidelines</a></li>
+                <li><a href="#">Become Instructor</a></li>
+                <li><a href="#">Build Career</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-part-1 col-lg-3 col-md-4 col-sm-12">
+            <div class="browse-coured">
+              <ul>
+                <h4 class="footer-ul-heading">Browse Courses</h4>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Health & Fitness</a></li>
+                <li><a href="#">Life Styles</a></li>
+                <li><a href="#">Photography</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-part-1 col-lg-3 col-md-4 col-sm-12">
+            <div class="insight-communite-cla">
+              <ul>
+                <h4 class="footer-ul-heading">Insight Community</h4>
+                <li><a href="#">Global Partners</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Documentation</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-box">
+          <div class="row footer-main-box">
+            <div class="footer-box-part1 col-lg-4 col-md-6 col-sm-12">
+              <div class="sub-heading-footer-part1">
+                <p>© Copyrighted & Designed by <span><a href="#">BDevs</a></span></p>
+              </div>
+            </div>
+            <div class="footer-box-part1 col-lg-4 col-md-6 col-sm-12">
+              <div class="part-footer-context">
+                <div class="headinphone">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 64 64">
+                    <path fill="#454749"
+                      d="M47.5 45.1c-6.6 12.1-6.5 13.1-9.6 11.3S33.6 53 40.3 41S48.9 29.1 52 30.9c3 1.7 2.1 2.2-4.5 14.2" />
+                    <path fill="#258399"
+                      d="M53.7 48.7c-4.2 7.7-9.4 11.4-11.9 10c-3.1-1.8-1.5-1.8 5.1-13.9s5.8-13.5 8.9-11.7c2.5 1.4 2.1 7.9-2.1 15.6" />
+                    <path fill="#454749"
+                      d="M16.5 45.1c6.6 12.1 6.5 13.1 9.6 11.3S30.4 53 23.7 41S15.1 29.1 12 30.9c-3 1.7-2.1 2.2 4.5 14.2" />
+                    <path fill="#258399"
+                      d="M10.3 48.7c4.2 7.7 9.4 11.4 11.9 10c3.1-1.8 1.5-1.8-5.1-13.9s-5.8-13.5-8.9-11.7c-2.5 1.4-2.1 7.9 2.1 15.6" />
+                    <path fill="#3baacf"
+                      d="M11.3 57.7s5.4 1.4 5.8 0c2.5-8.1-11.4-12.9-11.4-22.1C5.7 20.8 17.5 8.8 32 8.8s26.3 12 26.3 26.8c0 9.2-13.9 14-11.4 22.1c.4 1.4 5.8 0 5.8 0c5.7-5.6 9.3-13.4 9.3-22.1C62 18.7 48.6 5 32 5S2 18.7 2 35.6c0 8.7 3.6 16.5 9.3 22.1" />
+                    <path fill="#454749"
+                      d="M14.9 17.6c3.5-.7 8-5.7 17.1-5.7s13.7 5.1 17.1 5.7c1.4.3 3.8-1.9 3.8-1.9c-5.5-6.3-12-9.5-20.9-9.5s-15.4 3.2-20.9 9.5c0 .1 2.4 2.2 3.8 1.9" />
+                  </svg>
+                </div>
+                <div class="headphone-sub-heading">
+                  <p>Have a question? Call us 24/7</p>
+                  <a href="#">(987) 547587587</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer-box-part1 col-lg-4 col-md-6 col-sm-12">
+              <div class="email-form">
+                <form action="#">
+                  <div class="email">
+                    <div class="email-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24">
+                        <g fill="none">
+                          <path fill="currentColor"
+                            d="M3 5v-.5a.5.5 0 0 0-.5.5zm18 0h.5a.5.5 0 0 0-.5-.5zM3 5.5h18v-1H3zM20.5 5v12h1V5zM19 18.5H5v1h14zM3.5 17V5h-1v12zM5 18.5A1.5 1.5 0 0 1 3.5 17h-1A2.5 2.5 0 0 0 5 19.5zM20.5 17a1.5 1.5 0 0 1-1.5 1.5v1a2.5 2.5 0 0 0 2.5-2.5z" />
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m3 5l9 9l9-9"
+                            stroke-width="1" />
+                        </g>
+                      </svg>
+                    </div>
+                    <input type="email" name="email" id="" placeholder="Enter Email">
+                    <div class="subscribe-bta">
+                      <a href="#">scbscribe</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- boostrap css start  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <!-- boostrap over  -->
+
+  <!-- slider css link  -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        992: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- slider css link  -->
+
+</body>
+
+</html>

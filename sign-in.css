@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 9px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* all css classs is over  */
+
+/* from css classs is start  */
+.icon-img {
+    width: 51%;
+    margin: 0 auto;
+}
+.sign-logo {
+    width: 30%;
+    margin: 10px 146px;
+}
+.icon-heading p{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.accons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="email"] {
+    outline: none;
+    border: none;
+    color: black;
+}
+input[type="password"] {
+    outline: none;
+    border: none;
+    color: black;
+}
+.sign-in-btn a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #2467ec;
+    width: 481px;
+    text-align: center;
+}
+.rember-me{
+    margin-bottom: 10px;
+}
+.sign-in-btn a:hover{
+    background-color: #ffb013;
+    transition: 0.3s all ease-in-out;
+    color: black;
+}
+.not-registered a:hover{
+    transition: 0.3s all eas;
+    color: black;
+}
+.context {
+    max-width: 507px;
+}
+.for-got a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.other-way p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.google-facbook{
+    display: flex;
+    justify-content: space-evenly;
+}
+.google span{
+    padding: 0;
+}
+.google a{
+    text-decoration: none;
+    color: black;
+}
+.face-book a{
+    text-decoration: none;
+    color: black;
+}
+.face-book svg{
+    color: #2467ec;
+}
+.face-book span{
+    padding: 0;
+}
+.google span{
+    color: #575757;
+}
+.face-book span{
+    color: #575757;
+}
+.google:hover>span{
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+.face-book :hover>span{
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    .container {
+      max-width: 96% !important;
+    }
+  
+   
+  }
+  
+  @media screen and (min-width: 1241px) and (max-width: 1500px) {
+    .container {
+      max-width: 96% !important;
+    }
+  
+ 
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1240px) {
+    .container {
+      max-width: 96% !important;
+    }
+  
+   
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1024px) {
+    .container {
+      max-width: 96% !important;
+    }
+  
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+      max-width: 96% !important;
+    }
+    .icon-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sign-in-btn a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        background-color: #2467ec;
+        width: 278px;
+        text-align: center;
+    }
+    .sign-logo {
+        width: 58%;
+        margin: 0 auto;
+    }
+    .not-registered span{
+        font-size: 16px;
+    }
+    .accons {
+     display: block;
+    }
+  
+ 
+  
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container {
+      max-width: 96% !important;
+    }
+  
+  }
+  
+  @media screen and (max-width: 575px) {
+    .container {
+      max-width: 96% !important;
+    }
+    .sign-in-btn a{
+        width: 433px;
+    }
+    .sign-logo {
+        width: 41%;
+        margin: 0 auto;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      max-width: 96% !important;
+    }
+    .sign-in-btn a{
+        width: 283px;
+    }
+    .sign-logo {
+        width: 41%;
+        margin: 0 auto;
+    }
+  
+  }
